@@ -2,8 +2,9 @@ The purpose of this project is to optimize the alignment of two DNA strands. In 
 
 1) the order of nucleotides in each sequence is conserved (i.e the genetic code is conserved).
 2) No nucleotides can be added or removed
-3) number of matches is maximized
-4) number of gaps is minimized
-5) number of mismatches is minimized
+3) the number of matches is maximized
+4) the number of gaps is minimized
+5) the number of mismatches is minimized
 
-To calculate the optimal alignment, we use the Needleman-Wunsch Algorithm. This algorithm consists on comparing the two DNA strings by putting them as the header of a 2x2 matrix, and then calculating the cell of each position in the matrix.
+
+To calculate the optimal alignment, we use the Needleman-Wunsch Algorithm. This algorithm consists of comparing the two DNA strings by putting them as the header of a 2x2 matrix and then calculating the cell of each position in the matrix.
